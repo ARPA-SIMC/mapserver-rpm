@@ -59,7 +59,6 @@ then
     pkgname="$(rpmspec -q --qf="mapserver-%{version}-%{release}\n" mapserver.spec | head -n1)"
     mkdir -p ~/rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}
     cp mapserver.spec ~/rpmbuild/SPECS/
-    cp *.patch ~/rpmbuild/SOURCES/
     spectool -g -R -S ~/rpmbuild/SPECS/mapserver.spec
     set +x
     rpmbuild -ba ~/rpmbuild/SPECS/mapserver.spec 2>&1 | pv -q -L 3k
