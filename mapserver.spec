@@ -13,7 +13,7 @@
 
 Name:           mapserver
 Version:        7.2.2
-Release:        1.git%{shortcommit}%{?dist}
+Release:        2.git%{shortcommit}%{?dist}
 Summary:        Environment for building spatially-enabled internet applications
 
 License:        BSD
