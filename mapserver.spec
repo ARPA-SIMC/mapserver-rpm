@@ -1,6 +1,6 @@
 %global ini_name 40-mapserver.ini
-%global project_owner mapserver
-%global project_name mapserver
+%global project_owner MapServer
+%global project_name MapServer
 # MapServer doesn't support PHP 7 yet. See:
 # https://github.com/mapserver/mapserver/issues/5252
 %global php_mapscript 0
@@ -13,7 +13,7 @@
 
 Name:           mapserver
 Version:        7.2.2
-Release:        2.git%{shortcommit}%{?dist}
+Release:        3.git%{shortcommit}%{?dist}
 Summary:        Environment for building spatially-enabled internet applications
 
 License:        BSD
@@ -320,6 +320,9 @@ EOF
 
 
 %changelog
+* Thu May 27 2021 Emanuele Di Giacomo <edigiacomo@arpae.it> - 7.2.2-3.git7fe9b2b
+- Fixed project_owner and project_name
+
 * Sun Feb 24 2019 Julien Enselme <jujens@jujens.eu> - 7.2.2-1.git7fe9b2b
 - Update to 7.2.2
 
