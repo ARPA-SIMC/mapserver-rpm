@@ -13,7 +13,7 @@
 
 Name:           mapserver
 Version:        7.2.2
-Release:        3.git%{shortcommit}%{?dist}
+Release:        4.git%{shortcommit}%{?dist}
 Summary:        Environment for building spatially-enabled internet applications
 
 License:        BSD
@@ -320,6 +320,9 @@ EOF
 
 
 %changelog
+* Tue Mar  7 2023 Emanuele Di Giacomo <edigiacomo@arpae.it> - 7.2.2-4.git7fe9b2b
+- Recompile
+
 * Thu May 27 2021 Emanuele Di Giacomo <edigiacomo@arpae.it> - 7.2.2-3.git7fe9b2b
 - Fixed project_owner and project_name
 
