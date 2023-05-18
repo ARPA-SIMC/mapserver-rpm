@@ -1,4 +1,4 @@
-[![Build Status](https://simc.arpae.it/moncic-ci/mapserver-rpm/centos8.png)](https://simc.arpae.it/moncic-ci/mapserver-rpm/)
+[![Build Status](https://simc.arpae.it/moncic-ci/mapserver-rpm/rocky8.png)](https://simc.arpae.it/moncic-ci/mapserver-rpm/)
 [![Build Status](https://copr.fedorainfracloud.org/coprs/simc/stable/package/mapserver/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/simc/stable/package/mapserver/)
 
 # rpm packaging files for mapserver
